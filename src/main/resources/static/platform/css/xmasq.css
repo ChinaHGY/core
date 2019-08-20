@@ -1,0 +1,120 @@
+/* 通用样式 */
+.xmasq-hand {
+	cursor: pointer;
+}
+/* 导航栏样式 */
+.xmasq-navbar {
+	padding: 0;
+}
+
+.xmasq-navbar-inner {
+	border-radius: 0px;
+}
+
+/* 左边菜单样式 */
+.accordion-heading a:hover {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+.accordion-heading a:link {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+.accordion-heading a:visited {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+.accordion-heading a:active {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+.xmasq-accordion-toggle {
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.xmasq-accordion-inner {
+	padding: 9px 15px 9px 30px;
+	cursor: pointer;
+}
+
+.xmasq-accordion-inner.xmasq-focus {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color: #468847;
+}
+
+.xmasq-menu {
+	padding-left: 10px;
+}
+
+/* 右边内容样式 */
+.xmasq-content {
+	padding-right: 10px;
+}
+
+.xmasq-search {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.xmasq-table-btn {
+	margin-right: 5px;
+}
+
+.xmasq-tip {
+	width: 30%;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
+
+.xmasq-form-error {
+	color: red;
+	text-align: center;
+}
+
+/* 表单提示 */
+.xmasq-control-input-50 {
+	width: 50%;
+}
+
+.xmasq-control-input-80 {
+	width: 80%;
+}
+
+.xmasq-control-tip {
+	display: inline;
+	color: gray;
+}
+
+.xmasq-bt-area{
+	margin-bottom: 20px;
+	width: 50%;
+	float: left;
+}
+
+/* 弹窗样式 */
+.xmasq-modal-80{
+	width: 80%;
+    margin-left: 0px;
+    left: 10%;
+}
+
+.xmasq-modal-60{
+	width: 60%;
+    margin-left: 0px;
+    left: 20%;
+}
+
+.xmasq-modal-40{
+	width: 40%;
+    margin-left: 0px;
+    left: 30%;
+}
