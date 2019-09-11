@@ -81,6 +81,13 @@ public abstract class AbstractBusinessRepository {
 		return (List<T>) query.getResultList();
 	}
 
+	/**
+	 * 查询列表
+	 * @param queryString
+	 * @param params
+	 * @param <T>
+	 * @return
+	 */
 	public <T> List<T> find(String queryString, Map<String, Object> params) {
 		return find(queryString, params, QUERY_INVALID_MAX_NUMBER, QUERY_INVALID_MAX_NUMBER);
 	}

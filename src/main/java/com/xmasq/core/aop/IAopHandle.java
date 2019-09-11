@@ -1,4 +1,4 @@
-package com.xmasq.core.log;
+package com.xmasq.core.aop;
 
 import org.aspectj.lang.JoinPoint;
 
@@ -8,7 +8,7 @@ import org.aspectj.lang.JoinPoint;
  * @author guoyu.huang
  * @version 1.0.0
  */
-public interface ILogHandle {
+public interface IAopHandle {
 
     /**
      * 前置通知

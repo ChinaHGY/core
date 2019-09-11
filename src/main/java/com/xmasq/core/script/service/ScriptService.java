@@ -44,7 +44,6 @@ public class ScriptService extends AbstractBaseService<Script, String, ScriptRep
         }
     }
 
-
     @Override
     public ScriptRepository getRepository() {
         return scriptRepository;

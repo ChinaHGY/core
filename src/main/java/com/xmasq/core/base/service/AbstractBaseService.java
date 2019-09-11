@@ -11,8 +11,10 @@ import com.xmasq.core.base.entity.AbstractBaseEntity;
 import com.xmasq.core.base.repository.BaseRepository;
 
 /**
- * 
+ * 基础服务类
+ *
  * @author guoyu.huang
+ * @version 1.0.0
  */
 public abstract class AbstractBaseService<T extends AbstractBaseEntity, ID extends Serializable, DAO extends BaseRepository<T, ID>> {
 
@@ -70,7 +72,7 @@ public abstract class AbstractBaseService<T extends AbstractBaseEntity, ID exten
 	}
 
 	/**
-	 * 
+	 * 通过批量ID查询记录
 	 * @param ids
 	 * @return
 	 */

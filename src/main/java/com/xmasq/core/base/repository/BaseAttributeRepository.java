@@ -8,8 +8,10 @@ import org.springframework.data.repository.query.Param;
 import com.xmasq.core.base.entity.AbstractAttribute;
 
 /**
- * 
+ * 额外属性持久类
+ *
  * @author guoyu.huang
+ * @version 1.0.0
  */
 @NoRepositoryBean
 public interface BaseAttributeRepository<T extends AbstractAttribute<?>> extends BaseRepository<T, String> {

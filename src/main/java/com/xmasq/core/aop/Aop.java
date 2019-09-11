@@ -1,4 +1,4 @@
-package com.xmasq.core.log;
+package com.xmasq.core.aop;
 
 import java.lang.annotation.*;
 
@@ -13,13 +13,19 @@ import java.lang.annotation.*;
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Log {
+public @interface Aop {
 
     /**
-     * 处理日志的类名，这个类必须实现{@code ILogHandle}接口
+     * 处理日志的类名，这个类必须实现{@code IAopHandle}接口
      *
      * @return
-     * @see com.xmasq.core.log.ILogHandle
+     * @see IAopHandle
      */
-    Class[] handleClass() default {};
+    Class handleClass();
+
+    /**
+     * handleClass获取方式，支持从Spring BeanFactory获取和new一个实例出来，两种方式。默认为new一个实例出来
+     * @return
+     */
+    ClassGetType getType() default ClassGetType.NEW;
 }

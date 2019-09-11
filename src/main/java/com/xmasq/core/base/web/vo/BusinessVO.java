@@ -20,11 +20,8 @@ import lombok.ToString;
 public class BusinessVO {
 
 	private String id;
-
 	private StatusEnum status;
-
 	private Date createTime;
-
 	private Date updateTime;
 
 }

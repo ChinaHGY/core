@@ -1,4 +1,4 @@
-package com.xmasq.core.log;
+package com.xmasq.core.aop;
 
 import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;

@@ -12,6 +12,7 @@ import lombok.Setter;
 
 /**
  * 实体基类
+ *
  * @author guoyu.huang
  * @version 1.0.0
  */

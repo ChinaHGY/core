@@ -13,18 +13,6 @@ public class SystemException extends BaseException {
 	 */
 	private static final String CODE_PREFIX = "SE";
 
-	public SystemException() {
-		super();
-	}
-
-	public SystemException(String msg) {
-		super(msg);
-	}
-
-	public SystemException(Throwable cause) {
-		super(cause);
-	}
-
 	public SystemException(String code, String msg) {
 		super(CODE_PREFIX + code, msg);
 	}

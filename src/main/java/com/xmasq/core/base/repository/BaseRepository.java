@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
 
 /**
- * 
+ * 基础持久类
  * @author guoyu.huang
  */
 @NoRepositoryBean

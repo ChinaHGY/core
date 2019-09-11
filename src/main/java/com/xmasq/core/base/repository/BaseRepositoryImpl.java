@@ -7,8 +7,10 @@ import javax.persistence.EntityManager;
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 
 /**
- * 
+ * BaseRepository接口的实现类，用于自动注入
+ *
  * @author guoyu.huang
+ * @version 1.0.0
  */
 public class BaseRepositoryImpl<T, ID extends Serializable> extends SimpleJpaRepository<T, ID>
 		implements BaseRepository<T, ID> {
