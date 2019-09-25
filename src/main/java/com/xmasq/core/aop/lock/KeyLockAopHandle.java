@@ -17,7 +17,7 @@ import java.util.concurrent.Semaphore;
  * 默认会将方法中的参数名为key的当作锁的key
  *
  * @author guoyu.huang
- * @version 1.0.0
+ * @version 2.0.0
  */
 @Slf4j
 @Component

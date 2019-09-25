@@ -7,7 +7,7 @@ import java.lang.annotation.*;
  * 注意事项：该注解允许使用在方法上，也允许使用在类上。如果方法和类上都有这个注解，会获取所有注解的实例，方法上的优先执行。
  *
  * @author guoyu.huang
- * @version 1.0.0
+ * @version 2.0.0
  */
 
 @Target({ElementType.TYPE, ElementType.METHOD})

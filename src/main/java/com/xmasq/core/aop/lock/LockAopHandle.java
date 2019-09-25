@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 /**
  * 结合@AOP时，需要将getType设置为SPRING
  * @author guoyu.huang
- * @version 1.0.0
+ * @version 2.0.0
  */
 @Component
 @Slf4j

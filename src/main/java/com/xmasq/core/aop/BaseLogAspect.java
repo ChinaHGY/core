@@ -18,7 +18,7 @@ import java.util.Map;
  * 基础日志（控制层）
  *
  * @author guoyu.huang
- * @version 1.0.0
+ * @version 2.0.0
  */
 @Aspect
 @Component

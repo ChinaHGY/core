@@ -6,7 +6,7 @@ import org.aspectj.lang.JoinPoint;
  * 日志处理类接口
  *
  * @author guoyu.huang
- * @version 1.0.0
+ * @version 2.0.0
  */
 public interface IAopHandle {
 
